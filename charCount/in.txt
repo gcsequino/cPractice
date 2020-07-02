@@ -1,0 +1,8 @@
+This is a test file for charCount.c
+
+test
+1
+
+2
+
+3
