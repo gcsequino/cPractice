@@ -1,32 +1,48 @@
+/* This program converts hexadecimal numbers to decimal numbers
+*
+*  Author: Greyson Sequino, greyson.sequino@colostate.edu
+*/
+
 #include <stdio.h>
 #include <string.h>
 
-#define A 10
-#define B 11
-#define C 12
-#define D 13
-#define E 14
-#define F 15
+#define MAXLEN 1000
 
-#define a 10
-#define b 11
-#define c 12
-#define d 13
-#define e 14
-#define f 15
-
-int hexToDec(char[] str)
+int hexToDec(char str[]);
 
 int main() {
-    int
+    char hex[MAXLEN];
+    for (int i = 0; i < MAXLEN; i++) {
+        hex[i] = 0;
+    }
+    
+    int currChar;
+    int j;
+    j = 0;
+    while ((currChar = getchar()) != EOF) {
+        printf("%c", currChar);
+        hex[j] = currChar;
+        j++;
+    }
+
+    printf("\nHex Value: %d \n", hexToDec(hex));
+    return 0;
 }
 
-int hexToDec(char[] str) {
-    int pow = strlen(str) - 1;
+int hexToDec(char str[]) {
+    double power = strlen(str) - 2;
     int dec = 0;
+    int val = 0;
 
-    for (int i = 0; pow < 0; i++;) {
-        dec += ((int) str[i] - '0') * pow(16, pow);
-        pow--;
+    for (int i = 0; power >= 0; i++) {
+        val = str[i];
+        
+        if (val >= '0' || val <= '9')
+
+
+        dec += ((int) str[i] - '0') * pow(16.0, power);
+        printf("~%d", str[i]);
+        power--;
     }
+    return dec;
 }
