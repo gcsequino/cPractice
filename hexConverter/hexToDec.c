@@ -19,13 +19,14 @@ int main() {
     int currChar;
     int j;
     j = 0;
+    printf("Hex Value: ");
     while ((currChar = getchar()) != EOF) {
         printf("%c", currChar);
         hex[j] = currChar;
         j++;
     }
 
-    printf("\nHex Value: %d \n", hexToDec(hex));
+    printf("\nDecimal Value: %d \n", hexToDec(hex));
     return 0;
 }
 
@@ -35,13 +36,18 @@ int hexToDec(char str[]) {
     int val = 0;
 
     for (int i = 0; power >= 0; i++) {
-        val = str[i];
-        
-        if (val >= '0' || val <= '9')
+        if (str[i] >= '0' && str[i] <= '9') {
+            val = str[i] - '0';
+        }
+        else if (str[i] >= 'A' && str[i] <= 'F') {
+            val = str[i] - 'A' + 10;
+        }
+        else if (str[i] >= 'a' && str[i] <= 'f') {
+            val = str[i] - 'a' + 10;
+        }
 
-
-        dec += ((int) str[i] - '0') * pow(16.0, power);
-        printf("~%d", str[i]);
+        dec += val * pow(16.0, power);
+        // Debug: printf("~%d", str[i]);
         power--;
     }
     return dec;
