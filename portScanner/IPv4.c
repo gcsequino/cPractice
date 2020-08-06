@@ -32,9 +32,6 @@ int main(int argc, char *argv[])
 
 void port_scanner(char tIP[], char fromPort[], char toPort[])
 {
-    struct addrinfo hints;
-    memsets(&hints, 0, sizeof(hints));
-    hints.ai_family = AF_INET;
-    hints.ai_socktype = SOCK_STREAM;
+    printf("IP: %s\nFrom: port %s\nTo: port %s\n", tIP, fromPort, toPort);
 }
 
