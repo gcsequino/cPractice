@@ -1,1 +1,43 @@
-test
+Greyson Sequino
+571-438-2268 | greyson.sequino@colostate.edu | https://www.linkedin.com/in/greyson-sequino | https://github.com/gcsequino/
+   Objective
+ Self-motivated sophomore at Colorado State University enrolled in Computer Science with a focus in computing systems with experience in Java, Linux, and Python, pursuing a summer internship in software development and/or applied research.
+Education
+Colorado State University
+Bachelor of Science in Computer Science — 3.71 GPA
+Fort Collins, CO
+Expected June 2023
+• Calculus II
+• Discrete Math
+May 2020 – August 2020
+Rockville, MD
+ Course Work
+• Object-Oriented Programming • Data Structures
+Experience
+Engineering Intern
+Acumen Security
+• Algorithms • Calculus I
+  • Tested and certified devices according to FIPS and Common Criteria standards
+• Tested devices from Cisco, Apple, FireEye, SonicWall, and others
+• My responsibilities included managing virtual machines through VMWare, configuring new devices for testing, and
+any other tasks the engineering or IT team needed assistance with
+Hardware and Software Technician Dec. 2019 – Present Colorado State University Fort Collins, CO
+• Work with a team of technicians to securely refurbish and/or decommission hardware from Colorado State University
+• This hardware includes work stations, servers, switches, phones, etc. . .
+• Maintain hardware database for all devices with secure data that are active in the Colorado State University
+network
+• Maintain and improve Python scripts to manage the hardware database
+• Provide support to customers who need assistance with purchases on the floor
+Projects
+pfSense Router | Linux, IPv4, Machine Learning
+• Repurposed a dell workstation as a router with pfSense
+• Manually configured network interfaces and IP assignment
+• Installed Snort, a firewall that uses machine learning to detect malicious network activity
+Virtual NAS and Workstation | Proxmox
+• Installed and configured Proxmox on my workstation
+• Simultaneously hosts network attached storage and streams a virtual desktop environment to a thin client
+Technical Skills
+Languages: Java, Python, C
+Developer Tools: Git, VS Code, Visual Studio, IntelliJ, Eclipse Virtualization: VMWare, Virtual Box, Proxmox
+Networking: Cisco IOS, Cisco CLI
+  
